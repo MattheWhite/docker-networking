@@ -3,6 +3,6 @@ version: '3'
 services:
   app:
     network_mode: "bridge"
-    image: flask-nginx
+    image: nginx # DockerHub image
     ports:
       - 80:80
