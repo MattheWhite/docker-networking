@@ -6,3 +6,17 @@ services:
     image: nginx # DockerHub image
     ports:
       - 80:80
+  app-with-secret:
+    image: alpine-with-secret
+    networks:
+      - network1
+  app-with-secret-nonenetwork:
+    image: alpine-with-secret
+    # none disable all container networking, network_mode set service containers network mode
+    network_mode: "none"
+
+networks:
+  network1:
+    name: padlock
+    external: false
+    internal: true
