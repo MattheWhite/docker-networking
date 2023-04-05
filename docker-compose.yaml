@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  app:
+    network_mode: "bridge"
+    image: flask-nginx
+    ports:
+      - 80:80
