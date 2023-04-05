@@ -28,9 +28,23 @@ services:
       - app
     command: tail -f /dev/null
   # add another two alpine containers that use vip-clients network
+  vip-client1:
+    image: alpine
+    networks:
+      - vip-clients
+    container_name: vip-client1
+    command: tail -f /dev/null
+  vip-client2:
+    image: alpine
+    networks:
+      - vip-clients
+    container_name: vip-client2
+    command: tail -f /dev/null
 
 networks:
   network1:
     name: padlock
     external: false
     internal: true
+  vip-clients:
+    driver: bridge
