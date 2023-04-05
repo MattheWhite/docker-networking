@@ -18,7 +18,7 @@ Several building blocks and technologies related to Docker are present in this l
 
 
 ## Built With
-![[Docker][docker.com]][docker-url]
+![[Docker][docker-shield]][docker-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -93,7 +93,8 @@ Project Link: [https://github.com/MattheWhite/roguelike-game-python](https://git
 
 [contributors-shield]: https://img.shields.io/github/contributors/MattheWhite/docker-networking-general.svg?style=for-the-badge
 [contributors-url]: https://github.com/MattheWhite/docker-networking-general
-
+[docker-shield]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
+[docker-url]: https://docs.docker.com/get-started/overview/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=349
 [linkedin-url]: https://www.linkedin.com/in/matyas-feher/
 [github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=947
