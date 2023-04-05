@@ -11,6 +11,10 @@ The project was created for learning purposes with docker at the center.
 Docker lets you build, test, and deploy applications quickly
 Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 
+`Dockerizing is the process of packing, deploying, and running applications using Docker containers.`
+
+Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. 
+
 Several building blocks and technologies related to Docker are present in this learning project:
 * How to make and use Dockerfile
 * How to make and use docker-compose file
