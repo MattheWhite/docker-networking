@@ -18,7 +18,8 @@ Several building blocks and technologies related to Docker are present in this l
 
 
 ## Built With
-![[Docker][docker-shield]][docker-url]
+
+[![Docker][docker-shield]][docker-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
