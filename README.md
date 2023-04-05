@@ -91,7 +91,7 @@ MattheWhite - Fehér Mátyás
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][github-shield]][github-url]
 
-Project Link: [https://github.com/MattheWhite/roguelike-game-python](https://github.com/MattheWhite/roguelike-game-python)
+Project Link: [https://github.com/MattheWhite/docker-networking-general](https://github.com/MattheWhite/docker-networking-general)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
