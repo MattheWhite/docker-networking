@@ -14,6 +14,20 @@ services:
     image: alpine-with-secret
     # none disable all container networking, network_mode set service containers network mode
     network_mode: "none"
+  # two more alpine container
+  client1:
+    image: alpine
+    network_mode: "bridge"
+    links:
+      - app
+    command: tail -f /dev/null
+  client2:
+    image: alpine
+    network_mode: "bridge"
+    links:
+      - app
+    command: tail -f /dev/null
+  # add another two alpine containers that use vip-clients network
 
 networks:
   network1:
