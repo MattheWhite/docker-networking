@@ -1,7 +1,8 @@
+<a name="readme-top"></a>
+
 # Docker networking
 [![Contributors][contributors-shield]][contributors-url]
 
-<a name="readme-top"></a>
 
 ![Docker](https://www.docker.com/wp-content/uploads/2022/03/vertical-logo-monochromatic.png)
 
