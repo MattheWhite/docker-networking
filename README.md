@@ -91,13 +91,13 @@ MattheWhite - Fehér Mátyás
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![GitHub][github-shield]][github-url]
 
-Project Link: [https://github.com/MattheWhite/docker-networking-general](https://github.com/MattheWhite/docker-networking-general)
+Project Link: [https://github.com/MattheWhite/docker-networking](https://github.com/MattheWhite/docker-networking)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 [contributors-shield]: https://img.shields.io/github/contributors/MattheWhite/docker-networking-general.svg?style=for-the-badge
-[contributors-url]: https://github.com/MattheWhite/docker-networking-general
+[contributors-url]: https://github.com/MattheWhite/docker-networking
 [docker-shield]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://docs.docker.com/get-started/overview/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=349
