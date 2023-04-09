@@ -14,7 +14,18 @@ Docker packages software into standardized units called containers that have eve
 
 `Dockerizing is the process of packing, deploying, and running applications using Docker containers.`
 
-Docker enables you to separate your applications from your infrastructure so you can deliver software quickly. 
+Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+
+In the project there is a folder, which contains a simple flask application with nginx server. To containerize and deploy it, you can find a Dockerfile to build a Docker Image for it inside the flask-nginx-docker folder.
+
+### What is a Docker Image?
+
+A Docker image is a read-only template that contains a set of instructions for creating a container that can run on the Docker platform. It provides a convenient way to package up applications and preconfigured server environments, which you can use for your own private use or share publicly with other Docker users.
+
+### Docker Image vs Containers
+
+The key difference between a Docker image Vs a container is that a Docker image is a read-only immutable template that defines how a container will be realized. A Docker container is a runtime instance of a Docker image that gets created when the $ docker run command is implemented.
+
 
 Several building blocks and technologies related to Docker are present in this learning project:
 * How to make and use Dockerfile
@@ -25,14 +36,20 @@ Several building blocks and technologies related to Docker are present in this l
 ## Built With
 
 [![Docker][docker-shield]][docker-url]
+[![Flask][flask-shield]][flask-url]
+[![Nginx][nginx-shield]][nginx-url]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Tasks of the Project
 The necessary commands with explanation comment lines can be find in `commands.sh` file!
+Under the flask-nginx-docker folder you will find all the necessary files to be able to build the Docker image what is used in the project for deploying containers.
 
-1. Make a docker-compose file with own Nginx-Flask image from ECR with `host` network.
+According to the build of a Docker image, you can find all the commands with instructions collected inside the `commands-deploy-application.sh` file. As the name suggests, there are commands to explain how to start and stop an nginx server too.
+
+1. Make a docker-compose file with own Nginx-Flask image from ECR with `host` network. Use flask-nginx-docker folder's files to build Docker image.
     - Flask is running in localhost with your Nginx-Flask Docker image.
 
 2. Create an alpine `Docker image` with `secret.txt`.
@@ -69,6 +86,10 @@ The necessary commands with explanation comment lines can be find in `commands.s
 - Run the docker-compose with the ```docker-compose up -d``` (the -d means detach).
 - For the connection check if you can use the ```ping``` command.
 - If you want to connect two separated networks, use the ```link``` in the compose file.
+- Install all the necessary dependencies, libraries and packages for a python application, use ```requirements.txt``` file, since we only need Flask, inside the Dockerfile it will be installed, but for good practice I added that line too.
+```sh
+pip install -r requirements.txt
+```
 - A lot of docker images have `alpine` versions, and these are always the lightest versions of those images. Most distributions run a ton of services by default.
 This might be reasonable for a non-Docker set up, but chances are your Dockerized application doesn't need most of what's started by default.
 Alpine takes a much different approach. It doesn't start too much up by default and expects you to only start the things you need. This is perfect for a Dockerized application.
@@ -101,6 +122,10 @@ Project Link: [https://github.com/MattheWhite/docker-networking](https://github.
 [contributors-url]: https://github.com/MattheWhite/docker-networking
 [docker-shield]: https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white
 [docker-url]: https://docs.docker.com/get-started/overview/
+[flask-shield]: https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white
+[flask-url]: https://flask.palletsprojects.com/en/2.2.x/
+[nginx-shield]: https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white
+[nginx-url]: https://www.nginx.com/
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=349
 [linkedin-url]: https://www.linkedin.com/in/matyas-feher/
 [github-shield]: https://img.shields.io/badge/-GitHub-black.svg?style=for-the-badge&logo=github&colorB=947
