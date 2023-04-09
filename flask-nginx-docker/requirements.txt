@@ -1,0 +1,2 @@
+Flask==2.2.2
+# A requirement.txt python file is a type of file that usually stores information about all the libraries, modules, and packages which are specific to project that are used while developing a particular project.
