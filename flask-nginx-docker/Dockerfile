@@ -8,6 +8,7 @@ WORKDIR /app
 COPY . /app
 
 # Install any needed packages specified in requriements.txt, pass yes to apt prompt
+# pip install -r requirements.txt -> you could use this command too, since only Flask is needed for the project
 RUN pip install -U Flask
 RUN apt update
 RUN yes | apt install nginx
