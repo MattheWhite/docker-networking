@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # On Alpine Linux sh is available, bash not installed by default
 docker exec -it <alpine-containerID> sh
 
