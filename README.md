@@ -24,7 +24,7 @@ A Docker image is a read-only template that contains a set of instructions for c
 
 ### Docker Image vs Containers
 
-The key difference between a Docker image Vs a container is that a Docker image is a read-only immutable template that defines how a container will be realized. A Docker container is a runtime instance of a Docker image that gets created when the $ docker run command is implemented.
+The key difference between a Docker image vs a container is that a Docker image is a read-only immutable template that defines how a container will be realized. A Docker container is a runtime instance of a Docker image that gets created when the ```$ docker run``` command is implemented.
 
 
 Several building blocks and technologies related to Docker are present in this learning project:
