@@ -9,12 +9,15 @@
 
 ## About the project
 The project was created for learning purposes with docker at the center.
-Docker lets you build, test, and deploy applications quickly
-Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
-
+    
 `Dockerizing is the process of packing, deploying, and running applications using Docker containers.`
 
-Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
+- Docker lets you build, test, and deploy applications quickly
+        
+- Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
+
+
+- Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
 In the project there is a folder, which contains a simple flask application with nginx server. To containerize and deploy it, you can find a Dockerfile to build a Docker Image for it inside the flask-nginx-docker folder.
 
