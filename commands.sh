@@ -67,8 +67,8 @@ docker network inspect padlock # padlock is my network name of the container bui
     }
 ]
 
-docker exec <containerID> ping google.com
 # if you start type docker exec +TAB -> will show the running containers you can execute commands with
+docker exec <containerID> ping google.com
 
 docker inspect <containerID> 
 
