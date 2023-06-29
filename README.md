@@ -13,9 +13,8 @@ The project was created for learning purposes with docker at the center.
 `Dockerizing is the process of packing, deploying, and running applications using Docker containers.`
 
 - Docker lets you build, test, and deploy applications quickly
-        
-- Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 
+- Docker packages software into standardized units called containers that have everything the software needs to run including libraries, system tools, code, and runtime.
 
 - Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.
 
