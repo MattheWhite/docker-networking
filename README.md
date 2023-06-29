@@ -104,6 +104,7 @@ Alpine takes a much different approach. It doesn't start too much up by default 
 * <i class="far fa-book-open"></i> [Docker Networking](https://docs.docker.com/network/)
 * <i class="far fa-book-open"></i> [Docker Compose](https://docs.docker.com/compose/)
 * <i class="far fa-exclamation"></i> [What is the use of HOST and NONE network in docker](https://stackoverflow.com/questions/41083328/what-is-the-use-of-host-and-none-network-in-docker/43873743#43873743)
+* <i class="far fa-exclamation"></i> [What is dockertization](https://developerexperience.io/articles/dockerizing)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
